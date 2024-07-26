@@ -1,0 +1,289 @@
+/* large screen */
+
+@media(min-width:992px) and (max-width:1199px) {
+    .Departments .box1 {
+        width: 25%;
+    }
+    .ourdoctors.doctorbox {
+        width: 25%;
+    }
+    .gallery-bottom .g-photo {
+        width: 25%;
+    }
+    .testimonialsbox {
+        width: 50%;
+    }
+}
+
+/* medium screen */
+
+@media(min-width:768px) and (max-width:991px) {
+    .Departments .box1 {
+        width: 50%;
+    }
+    .ourdoctors.doctorbox {
+        width: 50%;
+    }
+    .gallery-bottom .g-photo {
+        width: 50%;
+    }
+    .testimonialsbox {
+        width: 50%;
+    }
+    .form-group {
+        width: 50%;
+        float: left;
+    }
+    .footer-colum,
+    .footer .s {
+        width: 50%;
+        padding: 20px 25px 20px 20px;
+    }
+}
+
+/* mobile screen */
+
+@media(min-width:320px) and (max-width:767px) {
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        top: 68px;
+        left: 0;
+        right: 0;
+        background-color: black;
+        padding: 15px 0;
+        z-index: 1;
+    }
+    ul.menu {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .header-nav {
+        display: block;
+        width: 35px;
+        height: 5px;
+        margin: 0 0 5px 30px;
+        background-color: #e12454;
+        ;
+    }
+    .header-praimary {
+        padding: 10px 15px;
+        text-transform: capitalize;
+        font-size: 18px;
+        color: white;
+        position: relative;
+        line-height: 50px;
+    }
+    .header-praimary:hover {
+        color: white;
+    }
+    .MiddleContent h3 {
+        width: 100%;
+        position: absolute;
+        top: 112px;
+        left: 37px;
+    }
+    .MiddleContent h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .MiddleContent p {
+        font-size: 18px;
+        line-height: 28px;
+        color: #292123;
+        width: 100%;
+        margin: 20px 0 40px 65px;
+        text-align: center;
+    }
+    .MiddleContent a {
+        width: 100%;
+        margin: 20px 0 40px 65px;
+        text-align: center;
+    }
+    .aboutus .leftsidecontent {
+        width: 100%;
+    }
+    .content1 p {
+        font-size: 16px;
+        color: #292123;
+        width: 100%;
+        line-height: 26px;
+        font-weight: 400;
+        padding: 15px 0 0 100px;
+    }
+    .aboutus .rightsidecontent {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .docimg {
+        margin: 0;
+    }
+    .aboutus .rightsidecontent-title h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .Departments-top h3 {
+        width: 100%;
+        text-align: center;
+        margin: 0 50px;
+        line-height: 32px;
+    }
+    .box1-innercontent img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .Departments-top h2 {
+        width: 70%;
+        text-align: center;
+        font-size: 22px;
+        margin: 50px;
+        line-height: 35px;
+    }
+    .Departments .box1 {
+        width: 100%;
+    }
+    .ourdoctors-top h3 {
+        width: 100%;
+        text-align: center;
+        margin: 0 50px;
+    }
+    .ourdoctors-top h2 {
+        width: 75%;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .ourdoctors .doctorbox {
+        width: 100%;
+    }
+    .services h2,
+    .gallery-top h2 {
+        width: 50%;
+        font-size: 26px;
+    }
+    .servicesleft {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .leftimg img {
+        width: 100%;
+        margin: 10px 75px;
+    }
+    .innerttext h4 {
+        margin: 10px auto;
+    }
+    .servicesright {
+        width: 100%;
+        float: right;
+        padding: 0 0 0 50px;
+    }
+    .services .threeboxleft {
+        width: 100%;
+    }
+    .services .threeboxright {
+        width: 100%;
+    }
+    .gallery-bottom .g-photo {
+        width: 100%;
+    }
+    .twoarrow .prevarrow {
+        visibility: hidden;
+    }
+    .twoarrow .nextarrow {
+        visibility: hidden;
+    }
+    .viewall {
+        visibility: hidden;
+    }
+    .keyword {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .key-btn1 {
+        margin: 0 auto;
+    }
+    .blogs-top h3 {
+        width: 100%;
+        text-align: center;
+        margin: 0 50px;
+    }
+    .blogs-top h2 {
+        width: 75%;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .blogsbox {
+        width: 100%;
+    }
+    .testimonialsbox {
+        width: 100%;
+    }
+    .testimonials-top h2 {
+        width: 75%;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+    .form-group,
+    .enter-message {
+        width: 100%;
+        padding: 0;
+    }
+    .form-top h2 {
+        font-size: 26px;
+    }
+    .two-button {
+        padding: 30px 0 0;
+    }
+    input[type="submit"] {
+        margin: 0 10px 0 0;
+    }
+    input[type="reset"] {
+        margin: 0;
+    }
+    .faq-top h2 {
+        font-size: 28px;
+    }
+    .question-left {
+        width: 100%;
+    }
+    .question-boxs .question {
+        width: 100%;
+        padding: 20px;
+    }
+    .question-image {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .newsletter h1 {
+        font-size: 28px;
+    }
+    .newsletter-form {
+        width: 90%;
+    }
+    .footer-colum {
+        width: 100%;
+        text-align: center;
+    }
+    .footer .s {
+        width: 100%;
+        padding: 20px 25px 20px 20px;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
